@@ -1,0 +1,8 @@
+component: "@sls-next/serverless-component@latest"
+name: your-nextjs-app
+inputs:
+  name:
+    defaultLambda: nextjs-default
+    apiLambda: nextjs-api
+  memory: 512
+  timeout: 10
